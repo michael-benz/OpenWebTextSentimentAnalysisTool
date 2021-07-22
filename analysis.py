@@ -10,7 +10,6 @@ from tqdm import tqdm
 def collectArgs():
     parser = ArgumentParser()
     parser.add_argument(dest='word', help='The word to be searched for in the dataset')
-    parser.add_argument('-c', '--case_sensitive', dest='case_sensitive', help='Only search for exact matches of the given word', action="store_true")
     parser.add_argument('-d', '--data_dir', dest='data_directory', help='Specify the data directory', default="/")
     parser.add_argument('-s', '--save', dest='save', help='Save the counts to an output file in the current directory', action="store_true")
     parser.add_argument('-r', '--random_seed', dest='seed', help='Specify a seed for the random selection of files', default="123", type=int)
