@@ -1,5 +1,5 @@
 # OpenWebTextSentimentAnalysisTool
-A tool for performing sentiment analysis on the OpenWebText corpus available at https://skylion007.github.io/OpenWebTextCorpus/. Checks the corpus for passages with the specified word, crunches to passage and returns POSITIVE or NEGATIVE for that part of the passage. You can also specify an exchange word, to discover if changing that word alone changes the sentiment.
+A tool for performing sentiment analysis on the OpenWebText corpus available at https://skylion007.github.io/OpenWebTextCorpus/. Checks the corpus for passages with the specified word, crunches to passage and returns POSITIVE or NEGATIVE for that part of the passage. You can also specify an exchange word, to discover if changing that word alone changes the sentiment. Uses the pretrained sentiment analysis tool from https://github.com/flairNLP/flair.
 
 ## Requirements
 * Python version: 3.6
